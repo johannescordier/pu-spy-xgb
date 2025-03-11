@@ -30,7 +30,13 @@ The classifier learns to distinguish sepsis and non-sepsis cases based on **cost
 - **Classifier used**: XGBoost
 
 ---
-
+## Dependencies
+- Python: 3.12.0
+- pandas: 2.2.3
+- numpy: 2.2.2
+- scikit-learn: 1.6.1
+- xgboost: 2.1.4
+---
 ## Data
 
 We use **hospital administrative data** from the **Swiss Federal Statistics Office** (years 2017 to 2019). The dataset includes:
